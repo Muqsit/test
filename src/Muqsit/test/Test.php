@@ -1,6 +1,4 @@
-
 <?php
-
 namespace Muqsit\test;
 
 use pocketmine\plugin\PluginBase;
