@@ -5,7 +5,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\ComamndSender;
 
-class MyPlugin extends PluginBase{
+class Test extends PluginBase{
 
 
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
