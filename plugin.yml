@@ -1,0 +1,15 @@
+name: test
+version: 1.0.0
+author: Muqsit
+api: 1.12.0
+main: Muqsit\test\Test
+commands:
+  helpme:
+    description: Main command.
+    usage: /helpme <argument>
+    aliases: [pls, halp]
+  votehelp:
+    description: Help on how to vote.
+    usage: /votehelp
+    aliases: [vh, howtovote]
+  
