@@ -8,7 +8,7 @@ use pocketmine\command\Command;
 use pocketmine\command\ComamndSender;
 
 class MyPlugin extends PluginBase{
-}
+
 
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
     $commandName = $command->getName();
@@ -18,3 +18,5 @@ class MyPlugin extends PluginBase{
     }
     return false;
   }
+
+}
