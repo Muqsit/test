@@ -4,6 +4,7 @@ namespace Muqsit\test;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\ComamndSender;
+use pocketmine\command\CommandExecutor;
 
 class Test extends PluginBase{
 
