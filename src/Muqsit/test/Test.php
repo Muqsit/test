@@ -7,8 +7,6 @@ use pocketmine\command\ComamndSender;
 use pocketmine\command\CommandExecutor;
 
 class Test extends PluginBase{
-
-
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
         $commandName = $command->getName();
             if($commandName === "helpme"){
@@ -17,5 +15,4 @@ class Test extends PluginBase{
     }
     return false;
   }
-
 }
